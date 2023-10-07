@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollable List with Images</title>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header with User Icon</title>
+    <!-- Include Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Style for the header container */
+        .header {
+            background-color: #425570; /* Background color */
+            color: #EBC98F; /* Text color */
+            padding: 20px; /* Padding around content */
+            text-align: center; /* Center-align text */
+            display: flex; /* Use flexbox to align items horizontally */
+            justify-content: space-between; /* Space evenly between items */
+            align-items: center; /* Center vertically */
+        }
+
+        /* Style for the header text */
+        .header h1 {
+            margin: 0; /* Remove default margin */
+        }
+
+        /* Style for the user icon */
+        .user-icon {
+            font-size: 24px; /* Adjust the size as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>pekkasquad</h1>
+        <div>
+            <span>Profile</span>
+            <i class="fas fa-user user-icon"></i> <!-- User icon -->
+        </div>
+    </div>
+</body>
+</html>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .scrollable-list {
+            max-width: 100vh;
+            margin: 0 auto;
+            overflow-y: scroll;
+            max-height: 100vh; /* Set the maximum height for the scrollable container */
+        }
+
+        .list-item {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Add some styling for odd and even list items for better readability */
+        .list-item:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+
+        /* Style the links if needed */
+        .list-item a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Style images */
+        .list-item img {
+            max-width: 100px;
+            height: auto;
+            margin-left: 10px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .scrollable-list {
+            max-width: 100vh;
+            margin: 0 auto;
+            overflow-y: scroll;
+            max-height: 100vh; /* Set the maximum height for the scrollable container */
+        }
+
+        .list-item {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            background-color: #425570; /* Main color */
+            color: #fff; /* Text color */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Add some styling for odd and even list items for better readability */
+        .list-item:nth-child(odd) {
+            background-color: #EBC98F; /* Secondary color */
+        }
+
+        /* Style the links if needed */
+        .list-item a {
+            text-decoration: none;
+            color: #fff; /* Text color */
+        }
+
+        /* Style images */
+        .list-item img {
+            max-width: 100px;
+            height: auto;
+            margin-left: 10px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="scrollable-list">
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollable List with Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .scrollable-list {
+            max-width: 100vh;
+            margin: 0 auto;
+            overflow-y: scroll;
+            max-height: 100vh; /* Set the maximum height for the scrollable container */
+        }
+
+        .list-item {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            background-color: #425570; /* Main color */
+            color: #fff; /* Text color */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Add some styling for odd and even list items for better readability */
+        .list-item:nth-child(odd) {
+            background-color: #EBC98F; /* Secondary color */
+        }
+
+        /* Style the links if needed */
+        .list-item a {
+            text-decoration: none;
+            color: #fff; /* Text color */
+        }
+
+        /* Style images */
+        .list-item img {
+            max-width: 100px;
+            height: auto;
+            margin-left: 10px;
+            
+        }
+        
+        .footer {
+            background-color: #425570;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer-icons {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="scrollable-list">
+        <!-- Project 1 -->
+        <div class="list-item">
+            <a href="#">Project 1</a>
+            <img src="../../assets/no-image.jpg" alt="Image 1">
+        </div>
+
+        <!-- Project 2 -->
+        <div class="list-item">
+            <a href="#">Project 2</a>
+            <img src="../../assets/no-image.jpg" alt="Image 2">
+        </div>
+
+        <!-- Project 3 -->
+        <div class="list-item">
+            <a href="#">Project 3</a>
+            <img src="../../assets/no-image.jpg" alt="Image 3">
+        </div>
+
+        <!-- Project 4 -->
+        <div class="list-item">
+            <a href="#">Project 4</a>
+            <img src="../../assets/no-image.jpg" alt="Image 4">
+        </div>
+
+        <!-- Project 5 -->
+        <div class="list-item">
+            <a href="#">Project 5</a>
+            <img src="../../assets/no-image.jpg" alt="Image 5">
+        </div>
+
+        <!-- Project 6 -->
+        <div class="list-item">
+            <a href="#">Project 6</a>
+            <img src="../../assets/no-image.jpg" alt="Image 6">
+        </div>
+
+        <!-- Project 7 -->
+        <div class="list-item">
+            <a href="#">Project 7</a>
+            <img src="../../assets/no-image.jpg" alt="Image 7">
+        </div>
+
+        <!-- Project 8 -->
+        <div class="list-item">
+            <a href="#">Project 8</a>
+            <img src="../../assets/no-image.jpg" alt="Image 8">
+        </div>
+
+        <!-- Project 9 -->
+        <div class="list-item">
+            <a href="#">Project 9</a>
+            <img src="../../assets/no-image.jpg" alt="Image 9">
+        </div>
+
+        <!-- Project 10 -->
+        <div class="list-item">
+            <a href="#">Project 10</a>
+            <img src="../../assets/no-image.jpg" alt="Image 10">
+        </div>
+
+        <!-- Project 11 -->
+        <div class="list-item">
+            <a href="#">Project 11</a>
+            <img src="../../assets/no-image.jpg" alt="Image 11">
+        </div>
+
+        <!-- Project 12 -->
+        <div class="list-item">
+            <a href="#">Project 12</a>
+            <img src="../../assets/no-image.jpg" alt="Image 12">
+        </div>
+
+        <!-- Project 13 -->
+        <div class="list-item">
+            <a href="#">Project 13</a>
+            <img src="../../assets/no-image.jpg" alt="Image 13">
+        </div>
+
+        <!-- Project 14 -->
+        <div class="list-item">
+            <a href="#">Project 14</a>
+            <img src="../../assets/no-image.jpg" alt="Image 14">
+        </div>
+
+        <!-- Project 15 -->
+        <div class="list-item">
+            <a href="#">Project 15</a>
+            <img src="../../assets/no-image.jpg" alt="Image 15">
+        </div>
+
+        <!-- Project 16 -->
+        <div class="list-item">
+            <a href="#">Project 16</a>
+            <img src="../../assets/no-image.jpg" alt="Image 16">
+        </div>
+
+        <!-- Project 17 -->
+        <div class="list-item">
+            <a href="#">Project 17</a>
+            <img src="../../assets/no-image.jpg" alt="Image 17">
+        </div>
+
+        <!-- Project 18 -->
+        <div class="list-item">
+            <a href="#">Project 18</a>
+            <img src="../../assets/no-image.jpg" alt="Image 18">
+        </div>
+
+        <!-- Project 19 -->
+        <div class="list-item">
+            <a href="#">Project 19</a>
+            <img src="../../assets/no-image.jpg" alt="Image 19">
+        </div>
+
+        <!-- Project 20 -->
+        <div class="list-item">
+            <a href="#">Project 20</a>
+            <img src="../../assets/no-image.jpg" alt="Image 20">
+        </div>
+
+        <!-- Project 21 -->
+        <div class="list-item">
+            <a href="#">Project 21</a>
+            <img src="../../assets/no-image.jpg" alt="Image 21">
+        </div>
+
+        <!-- Project 22 -->
+        <div class="list-item">
+            <a href="#">Project 22</a>
+            <img src="../../assets/no-image.jpg" alt="Image 22">
+        </div>
+
+        <!-- Project 23 -->
+        <div class="list-item">
+            <a href="#">Project 23</a>
+            <img src="../../assets/no-image.jpg" alt="Image 23">
+        </div>
+
+        <!-- Project 24 -->
+        <div class="list-item">
+            <a href="#">Project 24</a>
+            <img src="../../assets/no-image.jpg" alt="Image 24">
+        </div>
+
+        <!-- Project 25 -->
+        <div class="list-item">
+            <a href="#">Project 25</a>
+            <img src="../../assets/no-image.jpg" alt="Image 25">
+        </div>
+
+        <!-- Project 26 -->
+        <div class="list-item">
+            <a href="#">Project 26</a>
+            <img src="../../assets/no-image.jpg" alt="Image 26">
+        </div>
+
+        <!-- Project 27 -->
+        <div class="list-item">
+            <a href="#">Project 27</a>
+            <img src="../../assets/no-image.jpg" alt="Image 27">
+        </div>
+
+        <!-- Project 28 -->
+        <div class="list-item">
+            <a href="#">Project 28</a>
+            <img src="../../assets/no-image.jpg" alt="Image 28">
+        </div>
+
+        <!-- Project 29 -->
+        <div class="list-item">
+            <a href="#">Project 29</a>
+            <img src="../../assets/no-image.jpg" alt="Image 29">
+        </div>
+
+        <!-- Project 30 -->
+        <div class="list-item">
+            <a href="#">Project 30</a>
+            <img src="../../assets/no-image.jpg" alt="Image 30">
+        </div>
+
+        <!-- Project 31 -->
+        <div class="list-item">
+            <a href="#">Project 31</a>
+            <img src="../../assets/no-image.jpg" alt="Image 31">
+        </div>
+
+        <!-- Project 32 -->
+        <div class="list-item">
+            <a href="#">Project 32</a>
+            <img src="../../assets/no-image.jpg" alt="Image 32">
+        </div>
+
+        <!-- Project 33 -->
+        <div class="list-item">
+            <a href="#">Project 33</a>
+            <img src="../../assets/no-image.jpg" alt="Image 33">
+        </div>
+
+        <!-- Project 34 -->
+        <div class="list-item">
+            <a href="#">Project 34</a>
+            <img src="../../assets/no-image.jpg" alt="Image 34">
+        </div>
+
+        <!-- Project 35 -->
+        <div class="list-item">
+            <a href="#">Project 35</a>
+            <img src="../../assets/no-image.jpg" alt="Image 35">
+        </div>
+
+        <!-- Project 36 -->
+        <div class="list-item">
+            <a href="#">Project 36</a>
+            <img src="../../assets/no-image.jpg" alt="Image 36">
+        </div>
+
+        <!-- Project 37 -->
+        <div class="list-item">
+            <a href="#">Project 37</a>
+            <img src="../../assets/no-image.jpg" alt="Image 37">
+        </div>
+
+        <!-- Project 38 -->
+        <div class="list-item">
+            <a href="#">Project 38</a>
+            <img src="../../assets/no-image.jpg" alt="Image 38">
+        </div>
+
+        <!-- Project 39 -->
+        <div class="list-item">
+            <a href="#">Project 39</a>
+            <img src="../../assets/no-image.jpg" alt="Image 39">
+        </div>
+
+        <!-- Project 40 -->
+        <div class="list-item">
+            <a href="#">Project 40</a>
+            <img src="../../assets/no-image.jpg" alt="Image 40">
+        </div>
+        <!-- End of 40 projects -->
+    </div>
+    
+    
+    <footer>
+        &copy; 2023 Your Company. All rights reserved.
+    </footer>
+</body>
+</html>
+<footer>
+    &copy; 2023 Your Company. All rights reserved.
+</footer>
+</body>
+   <!-- Footer -->
+   <footer>
+    <div>
+        Contact: example@email.com
+    </div>
+    <div class="footer-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+</footer>
+</body>
+</html>
